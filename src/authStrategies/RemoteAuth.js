@@ -5,7 +5,7 @@ try {
     var fs = require('fs-extra');
     var unzipper = require('unzipper');
     var archiver = require('archiver');
-    const AdmZip = require('adm-zip');
+    var AdmZip = require('adm-zip');
 
 } catch {
     fs = undefined;
